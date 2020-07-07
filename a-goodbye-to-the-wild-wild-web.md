@@ -2,7 +2,7 @@
 
 **Metadata:**
 
-- **Source:** [URL](https://www.nytimes.com/2020/07/02/technology/goodbye-to-the-wild-wild-web.html?smid=tw-share)
+- **Source:** [URL](https://www.nytimes.com/2020/07/02/technology/goodbye-to-the-wild-wild-web.html?smid=tw-share){:target="\_blank" rel="noopener"}
 - **Author:** [[kevin-roose]]
 - **Tags:** #Article
 - **Date read:** [[2020-07-07]]

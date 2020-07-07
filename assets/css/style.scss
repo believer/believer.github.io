@@ -31,3 +31,47 @@ blockquote {
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida,
     "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
+
+:root {
+  --bg100: hsl(207, 95%, 8%);
+  --bg200: hsl(207, 95%, 11%);
+  --bg300: hsl(207, 95%, 15%);
+  --bg400: hsl(207, 85%, 20%);
+  --fg: #d6deeb;
+  --fg300: hsl(217, 14%, 55%);
+  --blue: #82aaff;
+  --gray: #637777;
+  --green100: hsl(84, 62%, 19%);
+  --green400: #addb67;
+  --purple: hsl(276, 68%, 75%);
+  --purple100: hsl(276, 68%, 23%);
+  --yellow: hsl(35, 71%, 74%);
+  --red: rgb(255, 134, 134);
+}
+
+a {
+  color: var(--blue);
+}
+
+// External links
+a[href*="//"]:not([href*="willcodefor.beer"])
+{
+  color: var(--red);
+}
+
+body {
+  background-color: var(--bg100);
+  color: var(--fg);
+}
+
+.markdown-body h1 {
+  border: 0;
+}
+
+.markdown-body h2 {
+  border-color: var(--bg400);
+}
+
+blockquote {
+  color: var(--fg300);
+}

@@ -13,7 +13,7 @@
 
 I like seeing that big companies are taking a real step towards better online conversations and removing hateful content. [[facebook]] doesn't really seem to want to handle it though, we'll have to see what effect it'll have for them in the future.
 
-[[kevin-roose.md]] believes that the "Wild Wild Web" started with [[facebook]]'s public opening in September 2006. I think he might be right. I think it changed a lot how people were using the internet and started the addictive behavior of social media. It also opened up public platforms for hateful speech and contributed to the increase in polarization.
+[[kevin-roose]] believes that the "Wild Wild Web" started with [[facebook]]'s public opening in September 2006. I think he might be right. I think it changed a lot how people were using the internet and started the addictive behavior of social media. It also opened up public platforms for hateful speech and contributed to the increase in polarization.
 
 > “Not so long ago, before the pandemic hit, each platform would only tend to its specific user base, keeping up with a triple bottom line by balancing profits with social and environmental impact. Now, having witnessed the terrifying results of unchecked medical misinformation, the same companies understand the importance of ensuring access to timely, local, and relevant facts.”
 >

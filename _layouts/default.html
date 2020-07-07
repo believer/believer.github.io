@@ -7,9 +7,10 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="container-lg px-3 my-5 markdown-body">
+    <div class="my-5 markdown-body">
       {% if site.title and site.title != page.title %}
       <a href="{{ "/" | absolute_url }}">{{ site.title }}</a>
       {% endif %}

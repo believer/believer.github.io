@@ -72,6 +72,7 @@ body {
   border-color: var(--bg400);
 }
 
-blockquote {
+.markdown-body blockquote {
+  border-color: var(--bg400);
   color: var(--fg300);
 }

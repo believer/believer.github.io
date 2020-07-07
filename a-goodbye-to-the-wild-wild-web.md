@@ -4,7 +4,7 @@
 
 - **Source:** [URL](https://www.nytimes.com/2020/07/02/technology/goodbye-to-the-wild-wild-web.html?smid=tw-share){:target="\_blank" rel="noopener"}
 - **Author:** [[kevin-roose]]
-- **Tags:** #Article
+- **Tags:** #Article
 - **Date read:** [[2020-07-07]]
 - **Published date:** [[2020-07-02]]
 - **Recommended by:** [[francesca-cortesi]]

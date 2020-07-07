@@ -38,9 +38,11 @@ a {
 }
 
 // External links
-a[href*="//"]:not([href*="willcodefor.beer"])
+a[href*="//"]:not([href*="willcodefor.beer"])::after
 {
-  color: var(--red);
+  content: " (ext)";
+  color: var(--fg);
+  font-size: 10px;
 }
 
 body {

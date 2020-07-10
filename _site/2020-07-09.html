@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>2020-07-09 | Notes</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="2020-07-09" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/2020-07-09.html" />
+<meta property="og:url" content="http://localhost:4000/2020-07-09.html" />
+<meta property="og:site_name" content="Notes" />
+<script type="application/ld+json">
+{"headline":"2020-07-09","@type":"WebPage","url":"http://localhost:4000/2020-07-09.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=846cba64cb588221295b0980cda309141dcedfd8">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="my-5 markdown-body">
+      
+      <a href="http://localhost:4000/" style="display:inline-block; margin-bottom: 40px;">Home</a>
+      
+
+      <h1 id="2020-07-09">2020-07-09</h1>
+
+<h2 id="did-you-learn-anything-new-today">Did you learn anything new today?</h2>
+
+<p>I did a [<a href="refactoring" title="Refactoring">refactoring</a>] task today which involved moving logic from our [<a href="react" title="React">react</a>] [<a href="frontend" title="Frontend">frontend</a>] to our [<a href="ruby-on-rails" title="Ruby on Rails">ruby-on-rails</a>] [<a href="backend" title="Backend">backend</a>]. In the process I got to try out a bunch of new features that I hadn’t interacted with before as a relative newbie to [<a href="ruby-on-rails" title="Ruby on Rails">ruby-on-rails</a>].</p>
+
+<ul>
+  <li>How to create a service and how to instantiate it from a controller view. In this service I also used the <code class="language-plaintext highlighter-rouge">_path</code> helper methods. These helper methods are added automatically to controllers, so I had to learn how to explicitly add those in a service.</li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kp">private</span>
+
+<span class="no">Helpers</span> <span class="o">=</span> <span class="no">Class</span><span class="p">.</span><span class="nf">new</span> <span class="p">{</span>
+  <span class="kp">include</span> <span class="no">Routing</span>
+<span class="p">}</span>
+
+<span class="n">private_constant</span> <span class="ss">:Helpers</span>
+
+<span class="k">def</span> <span class="nf">helpers</span>
+  <span class="vi">@helpers</span> <span class="o">||=</span> <span class="no">Helpers</span><span class="p">.</span><span class="nf">new</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<ul>
+  <li>How hashes work and how to conditionally add/remove values</li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="ss">price: </span><span class="kp">nil</span><span class="p">)</span>
+  <span class="c1"># Default hash</span>
+  <span class="n">base</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="ss">caption: </span><span class="s2">"test"</span>
+  <span class="p">}</span>
+
+  <span class="c1"># Add price if one is passed in</span>
+  <span class="n">base</span><span class="p">[</span><span class="ss">:price</span><span class="p">]</span> <span class="o">=</span> <span class="n">price</span> <span class="k">if</span> <span class="n">price</span>
+
+  <span class="c1"># Remove caption if price is set</span>
+  <span class="n">base</span><span class="p">.</span><span class="nf">except!</span><span class="p">(</span><span class="ss">:caption</span><span class="p">)</span> <span class="k">if</span> <span class="n">price</span>
+
+  <span class="c1"># Return hash</span>
+  <span class="n">base</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Got to do more testing with [<a href="rspec" title="RSpec">rspec</a>] to test the new service I added. I also got to add integration tests and learned how to test actual [<a href="json" title="JSON">json</a>] data being set in the view.</li>
+</ul>
+
+
+
+<script type="text/javascript">
+  // Hack: Replace page-link with "Page Title"
+  document.querySelectorAll(".markdown-body a[title]").forEach((a) => {
+    a.innerText = a.title;
+  });
+</script>
+
+
+      
+    </div>
+    <script src="/assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    
+  </body>
+</html>

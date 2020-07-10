@@ -1,8 +1,11 @@
+.highlight {
+  background: none;
+}
 .highlight pre {
-  background-color: #272822;
+  background-color: var(--bg200) !important;
 }
 .highlight .hll {
-  background-color: #272822;
+  background-color: var(--bg200) !important;
 }
 .highlight .c {
   color: #75715e;
@@ -190,4 +193,4 @@
 } /* Generic.Deleted & Diff Deleted */
 .highlight .gi {
   color: #a6e22e;
-} /* Generic.Inserted & Diff Inserted *
+} /* Generic.Inserted & Diff Inserted */

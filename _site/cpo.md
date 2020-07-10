@@ -1,3 +1,0 @@
-# CPO
-
-Chief Product Officer

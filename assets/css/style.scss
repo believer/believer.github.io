@@ -2,6 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+@import "highlight";
 
 input.task-list-item-checkbox {
   margin-right: 4px;
@@ -86,6 +87,11 @@ body {
 .markdown-body blockquote {
   border-color: var(--bg400);
   color: var(--fg300);
+}
+
+.markdown-body code.language-plaintext {
+  background-color: var(--purple);
+  color: var(--purple100);
 }
 
 /* Tags */
